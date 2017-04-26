@@ -1,7 +1,13 @@
-sudo: false
-language: java
+language: scala
+
+scala:
+    - 2.11.6
+
 jdk:
     - oraclejdk8
 
+install: true
+
 notifications:
   slack: petit-comite-slack:oKs6OCXLTxo7bwhGzfisOvxn
+  email: false
