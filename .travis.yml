@@ -1,14 +1,12 @@
 sudo: false
 cache: bundler
-
 language: scala
 scala:
-    - 2.11.7
+- 2.11.7
 jdk:
-    - oraclejdk8
-
+- oraclejdk8
 install: true
-
 notifications:
-  slack: petit-comite-slack:oKs6OCXLTxo7bwhGzfisOvxn
+  slack:
+    secure: ZSO6yI0nxJw1tbHA6zjwZUkN66hP2qE5odINYIvcdpucCSigvrqor8tREyBK5l335IiWpcHnDMvtm198wf0YojXbWFdaRHP+asjnrIu7RGKkRquh0DaTBBXcuPBvs6xzgcxR4F/9vqcdhMojXGuAJ+jKD1EyJuqWH1mMheoBZQ94DduPM/srJ0/d7fnJLRXW7kZfzSUSNMgxqvs+cRyUJyM5Hcr0CydExeoD6iFIg5WjjiPReHmZ+hqbJSaKBDo0jC3PsRY7LPamuV6HiYkeHLCz6BRiQWnas49Eh0HIdptLfaUDEsEcB+ur8i/uoiCozquWO5AZoeIlviqmFKt/ElDxJk4wVKdnCY0Kvto1sxVrJGrreahNJsoQEtRV82n6cQJ22Cr5STXcV5SbabQdcb47d1Kosv2DG3FDGEitRNu7DsmSUgNTpFbeav7wF9wySQkxrlNabi5PAOSmqCIDq19iwxsOQYs59aexX6csJZjCoOe5ut/LtoniC/fWoBPLiIQb4WcAwHhqrGdXOhry+/ZYjtNukmobwYFODjNXgU+DOgQXfKHjAu9sCxhgtyjVsBYVOsgh2l0qjtalDRGdjl+cLYSd6iO+6VglP4ySq2ac2WXBqriNMY4s+vD+vW1KT7XgXOH0vamm8c9bRPydXEzOok58RtfJBTeXEwpET5g=
   email: false
